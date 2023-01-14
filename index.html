@@ -4,21 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dice Game</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="header">🚩 Player 1 Wins!</header>
     <main class="main">
       <div class="die-container">
-        <h2 class="player-text">Sam</h2>
+        <h2 class="player-text">Player 1</h2>
         <div class="player1-die"></div>
       </div>
       <div class="die-container">
-        <h2 class="player-text">Nick</h2>
+        <h2 class="player-text">Player 2</h2>
         <div class="player2-die"></div>
       </div>
     </main>
-    <footer>www 🎲 App Brewery 🎲 com</footer>
+    <button onclick="handleReset()" class="btn btn-outline-light dice-btn">
+      Play Again
+    </button>
+    <footer>www 🎲 Cenek Portfolio 🎲 com</footer>
     <script src="index.js"></script>
   </body>
 </html>
